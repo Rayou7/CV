@@ -1,0 +1,209 @@
+.barre_nav{
+    height: 150px;
+    width: 1200px;
+    border-radius: 100px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgb(170, 161, 161);
+    opacity: 0.8;
+}
+
+.barre_navv{
+    height: 60px;
+    width: 400px;
+    border-radius: 100px;
+    position: absolute;
+    bottom: -6.5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgb(170, 161, 161);
+    opacity: 0.8;
+}
+
+#nous_contacter{
+    position: absolute;
+    bottom: -2.5%;
+    left: 49.8%;
+    transform: translate(-50%,-50%);
+    color: black;
+}
+
+.color{
+    color: black;
+}
+
+#icone {
+    position: absolute;
+    top: 0.4%;
+    left: 13%;
+    filter: sepia(100%);
+}
+
+
+#accueil {
+    color: black;
+    position: relative;
+    left: 16%;
+    display: inline;
+    margin: 17px;
+    font-size: 30px;
+}
+
+#histoire {
+    position: relative;
+    left: 16%;
+    display: inline;
+    margin: 17px;
+    font-size: 30px;
+}
+
+#menu {
+    position: relative;
+    left: 16%;
+    display: inline;
+    margin: 17px;
+    font-size: 30px;
+    
+}
+
+#reserver {
+    position: relative;
+    left: 16%;
+    display: inline;
+    margin: 17px;
+    font-size: 30px;
+}
+
+#contact {
+    position: relative;
+    left: 16%;
+    display: inline;
+    margin: 17px;
+    font-size: 30px;
+}
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-size: auto;
+    background-image: url(https://images4.alphacoders.com/646/646937.jpg);
+    background-size: cover;
+  }
+  .search-box {
+    position: absolute;
+    top: 1.5%;
+    left: 72.5%;
+    background: #666666;
+    height: 30px;
+    border-radius: 30px;
+    padding: 8px;
+  }
+  .search-box:hover > .search-txt {
+    width: 185px;
+    padding: 0 5px;
+  }
+  .search-box:hover > .search-btn {
+    background: white;
+    color: black;
+  }
+  .search-btn {
+    color: #eeeeee;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .search-btn > i {
+    font-size: 15px;
+  }
+  .search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 10px;
+    width: 0px;
+    font-weight: bold;
+  }
+
+#border{
+    position: absolute;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(225, 219, 219);
+    top: 24.5%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    color: rgb(255, 253, 253);
+    text-align: center;
+    font-size: 50px;
+    background-color: black;
+    opacity: 0.6;
+}
+
+
+#border2{
+
+    position: absolute;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(225, 219, 219);
+    top: 43%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    color: rgb(255, 253, 253);
+    text-align: center;
+    font-size: 17px;
+    background-color: black;
+    opacity: 0.6;
+}
+
+
+#form{
+    position: absolute;
+    top: 64%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    color: aqua;
+    font-size: 25px;
+
+}
+
+#form1{
+    position: absolute;
+    top: 83%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    color: aqua;
+    font-size: 25px;
+
+}
+
+#form2{
+    position: absolute;
+    top: 93%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    color: aqua;
+    font-size: 25px;
+
+}
+

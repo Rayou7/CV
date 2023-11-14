@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="EXO_3_CSS.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <title>Restaurant | Nous contacter</title>
+    </head>
+    <body>
+        <p class="barre_nav"></p>
+        <ul id="navigation">
+            <li id="accueil"><a class="color" href="EXO_3_CSS.html" style="text-decoration:none">Accueil</a></li>
+            <li id="histoire"><a class="color" href="histoire.html" style="text-decoration:none">Notre histoire</a></li>
+            <li id="menu"><a class="color" href="menu.html" style="text-decoration:none">Menu</a></li>
+            <li id="reserver"><a class="color" href="reserver.html" style="text-decoration:none">Réserver</a></li>
+            <li id="contact"><a class="color" style="text-decoration:none"><strong>Nous contacter</strong></a></li>
+        </ul>
+        <img id="icone" src="https://cdn-icons-png.flaticon.com/512/433/433036.png" height="58" alt="Logo du restaurant">
+        <div class="search-box">
+            <input type="text" name="" class="search-txt" placeholder="Tapez pour rechercher" />
+            <a class="search-btn" href="#">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </a>
+          </div>
+          <h1 id="border">Contactez-Nous</h1>
+          <p  id="border2">Merci de complêter le formulaire suivant pour nous contacter. Tous les champs de ce formulaire sont requis.</p>
+
+          <form id="Contacteerr" action="merci.html">
+            <div id="form">
+                <div>
+                    <label for="first_name">Prénom</label><br>
+                    <input type="text" name="first_name" id="first_name" required>
+                </div>
+                <div>
+                    <label for="last_name">Nom de Famille</label>
+                    <br><input type="text" name="last_name" id="last_name" required>
+                </div>
+                <div>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email" required>
+                </div>
+            </div>
+
+            <div>
+                <div id="form1">
+                    <label for="message">Votre Message</label> <br>
+                    <textarea name="message" id="message" required></textarea>
+                </div>
+            </div>
+            <button id="form2" type="submit">Envoyer</button>
+          </form>
+    </body>
+</html>/

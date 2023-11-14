@@ -1,0 +1,11 @@
+
+body {
+    background-image: url(https://static.vecteezy.com/ti/photos-gratuite/p1/23386841-galaxie-espace-fond-d-ecran-dans-le-style-de-fonce-violet-et-lumiere-violet-realiste-usage-de-lumiere-et-couleur-richement-colore-ciels-realiste-textures-generer-ai-gratuit-photo.jpg);
+    background-size: cover;
+}
+
+#Mainheader {
+    background-color: rgba(168, 66, 212, 0.801);
+    height: 50px;
+    text-align: center;
+}

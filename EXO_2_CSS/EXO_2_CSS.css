@@ -1,0 +1,20 @@
+.carre{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: red;
+}
+
+.cercle{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: blue;
+}
